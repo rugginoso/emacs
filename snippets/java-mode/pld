@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: System.out.println( var )
+# --
+System.out.println("$1: " + $1);

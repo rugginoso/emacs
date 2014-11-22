@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: allow(...).to receive(...).with(...).and_return(...)
+# --
+allow($1).to receive($2).with($3).and_return($4)

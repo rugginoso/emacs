@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: try {...} finally {...}
+# --
+try {
+    $1
+}
+catch ($2) {
+    $3
+}
+finally {
+    $0
+}

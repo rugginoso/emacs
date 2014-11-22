@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: cout << Var: << var << endl;
+# --
+cout << "$1: " << $1 << endl;

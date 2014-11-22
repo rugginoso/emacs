@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: puts "var: #{var}"
+# --
+puts "$1: #{$1}"

@@ -1,0 +1,7 @@
+local.el
+*.elc
+/private.el
+/auto-save-list
+/session.*
+/elpa
+/projectile-bookmarks.eld

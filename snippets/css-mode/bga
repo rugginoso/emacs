@@ -1,0 +1,3 @@
+#name : background: [all options]
+# --
+background: ${1:#F00} url("${2:image}") ${3:no-repeat} ${4:top left};
