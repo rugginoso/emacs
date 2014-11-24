@@ -7,6 +7,7 @@
 (load-local "lisp/global")
 (load-local "lisp/ido")
 (load-local "lisp/ui")
+(load-local "lisp/linum")
 (load-local "lisp/files")
 (load-local "lisp/snippets")
 (load-local "lisp/navigation")

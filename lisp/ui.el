@@ -23,10 +23,6 @@
 (column-number-mode t)
 (size-indication-mode t)
 
-;; Line numbers on left side
-(setq linum-format "%3d ")
-(global-linum-mode)
-
 ;; Disable frame borders
 (if (fboundp 'fringe-mode) (fringe-mode 0))
 
