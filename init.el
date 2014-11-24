@@ -12,7 +12,6 @@
 (load-local "lisp/snippets")
 (load-local "lisp/navigation")
 (load-local "lisp/undo")
-(load-local "lisp/speedbar")
 (load-local "lisp/magit")
 (load-local "lisp/visual-regexp")
 (load-local "lisp/bindings")
