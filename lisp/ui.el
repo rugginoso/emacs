@@ -46,11 +46,17 @@
   (if (server-running-p)
       (with-selected-frame frame
         (when (not (display-graphic-p)) ; Terminal
-          (set-face-background 'default "unspecified-bg" frame)) )
+          (set-face-background 'default "unspecified-bg" frame))
+        (when (display-graphic-p) ; Graphic
+          (set-cursor-color "white"))
+        )
     ; else
     (lambda
       (when (not (display-graphic-p)) ; Terminal
-        (set-face-background 'default "unspecified-bg")) )
+        (set-face-background 'default "unspecified-bg"))
+      (when (display-graphic-p) ; Graphic
+        (set-cursor-color "white"))
+      )
     ) ; if-else
   )   ; defun
 
