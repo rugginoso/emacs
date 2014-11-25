@@ -36,6 +36,9 @@
 (package-install-if-missing 'molokai-theme)
 (load-theme 'molokai t)
 
+;; Highlight current line
+(global-hl-line-mode)
+
 ;; Emacsclient settings - grabbed from Prelude http://batsov.com/prelude/
 ;; Since emacs --daemon starts a terminal frame, we need to customize frames each time
 ;; For daemon mode, with-selected-frame seems to be required.  Normal
