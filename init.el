@@ -12,7 +12,7 @@
 (load-local "lisp/snippets")
 (load-local "lisp/navigation")
 (load-local "lisp/undo")
-(load-local "lisp/magit")
+(load-local "lisp/git-gutter")
 (load-local "lisp/visual-regexp")
 (load-local "lisp/bindings")
 (load-local "lisp/tab")
