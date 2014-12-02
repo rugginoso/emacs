@@ -1,6 +1,3 @@
-;; Copy & Paste & other sane stuff
-(cua-mode t)
-
 ;; Rules for "copy&paste stacks": emacs kill ring, emacs region, X11 clipboard and X11 selection
 (setq mouse-drag-copy-region nil)     ; don't inject selection with mouse to the kill ring
 (setq x-select-enable-primary nil)    ; don't sync kill ring with primary X11 selection
