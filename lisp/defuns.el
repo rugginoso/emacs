@@ -21,3 +21,9 @@
   (move-end-of-line nil)
   (newline)
   )
+
+;; https://gist.github.com/haksior/1992394
+(defadvice split-window (after move-point-to-new-window activate)
+  "Moves the point to the newly created window after splitting."
+  (if (> (window-height (next-window)) 2)
+      (other-window 1)))
