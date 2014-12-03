@@ -27,6 +27,10 @@
 (setq replace-regex-history-max 50)
 (setq find-file-history-max 1000)
 
+;; Selections
+(transient-mark-mode 1) ; highlight text selection
+(delete-selection-mode 1) ; delete seleted text when typing
+
 ;; Browser
 (setq browse-url-browser-function 'browse-url-generic
       browse-url-generic-program "google-chrome")
