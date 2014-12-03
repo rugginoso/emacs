@@ -48,3 +48,21 @@
 (windmove-default-keybindings 'meta)
 
 (global-set-key (kbd "<backtab>") 'indent-rigidly)
+
+;; Compile
+(global-set-key "\C-cc" 'mode-compile)
+(global-set-key "\C-ck" 'mode-compile-kill)
+
+;; Ace jump
+(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+
+;; Projectile
+(global-set-key "\C-x\C-g" 'projectile-find-file)
+(global-set-key "\C-x\C-a" 'projectile-ag)
+(global-set-key "\C-x\C-p" 'projectile-switch-project)
+
+;; Expand region
+(global-set-key (kbd "C-@") 'er/expand-region)
+
+;; Visual regexp
+(define-key global-map (kbd "C-c r") 'vr/query-replace)
