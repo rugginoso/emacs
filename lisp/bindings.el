@@ -16,6 +16,7 @@
 
 (global-set-key (kbd "C-<return>") 'empty-line)
 (global-set-key "\C-k" 'kill-whole-line)
+(global-set-key "\C-a" 'back-to-indentation)
 
 ;; Ctrl+Tab to switch buffer (F6 for terminals)
 (global-set-key (kbd "<C-tab>") 'bury-buffer)
