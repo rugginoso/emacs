@@ -14,6 +14,8 @@
 (global-set-key "\C-cw" 'whitespace-cleanup)
 (global-set-key "\C-xc" 'find-local-config)
 
+(global-set-key (kbd "C-<return>") 'empty-line)
+
 ;; Ctrl+Tab to switch buffer (F6 for terminals)
 (global-set-key (kbd "<C-tab>") 'bury-buffer)
 (global-set-key (kbd "<C-S-iso-lefttab>") 'unbury-buffer)

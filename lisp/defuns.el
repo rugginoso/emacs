@@ -14,3 +14,10 @@
 				(directory-files "~/.emacs.d/lisp/"
 						 nil
 						 "^[^.]")))))
+
+(defun empty-line ()
+  "Creates an empty line below the cursor"
+  (interactive)
+  (move-end-of-line nil)
+  (newline)
+  )
