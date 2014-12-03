@@ -20,4 +20,4 @@
 
 ;; expand region
 (package-install-if-missing 'expand-region)
-(global-set-key (kbd "C-ò") 'er/expand-region)
+(global-set-key (kbd "C-@") 'er/expand-region)
