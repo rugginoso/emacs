@@ -20,7 +20,6 @@
 ;; My modes
 (load-local "lisp/ruby")
 (load-local "lisp/rbenv")
-(load-local "lisp/rails")
 (load-local "lisp/coffee")
 (load-local "lisp/sass")
 (load-local "lisp/slim")
