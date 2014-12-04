@@ -15,6 +15,7 @@
 (load-local "lisp/git-gutter")
 (load-local "lisp/visual-regexp")
 (load-local "lisp/tab")
+(load-local "lisp/whitespace")
 
 ;; My modes
 (load-local "lisp/ruby")
