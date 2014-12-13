@@ -61,3 +61,6 @@
 
 ;; Visual regexp
 (define-key global-map (kbd "C-c r") 'vr/query-replace)
+
+;; Magit
+(global-set-key "\C-xg" 'magit-status)
