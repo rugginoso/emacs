@@ -14,7 +14,8 @@
 (global-set-key "\C-cw" 'whitespace-cleanup)
 (global-set-key "\C-xc" 'find-local-config)
 
-(global-set-key (kbd "C-<return>") 'empty-line)
+(global-set-key (kbd "<s-return>") 'empty-line)
+(global-set-key (kbd "C-<return>") 'cua-rectangle-mark-mode)
 (global-set-key "\C-k" 'kill-whole-line)
 (global-set-key "\C-a" 'back-to-indentation)
 
