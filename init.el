@@ -28,6 +28,7 @@
 (load-local "lisp/markdown")
 (load-local "lisp/javascript")
 (load-local "lisp/jade")
+(load-local "lisp/go")
 
 ;; Bindings
 (load-local "lisp/bindings")
