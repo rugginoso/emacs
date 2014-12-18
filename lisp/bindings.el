@@ -65,3 +65,6 @@
 
 ;; Magit
 (global-set-key "\C-xg" 'magit-status)
+
+;; Ruby
+(global-set-key (kbd "C-.") 'ruby-toggle-hash-syntax)
