@@ -25,6 +25,10 @@
 (global-set-key [f6] 'bury-buffer)
 (global-set-key [(shift f6)] 'unbury-buffer)
 
+;; Focus new created window
+(global-set-key "\C-x2" (lambda () (interactive)(split-window-below) (other-window 1)))
+(global-set-key "\C-x3" (lambda () (interactive)(split-window-right) (other-window 1)))
+
 ;; Font size
 (define-key global-map (kbd "C-+") 'text-scale-increase)
 (define-key global-map (kbd "C--") 'text-scale-decrease)
