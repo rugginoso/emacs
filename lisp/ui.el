@@ -6,6 +6,9 @@
 (set-default 'cursor-type 'bar)                             ; Bar Cursor
 (blink-cursor-mode -1)                                      ; the blinking cursor is nothing, but an annoyance
 
+;; Font size
+(set-face-attribute 'default nil :height 150)
+
 ;; Nice scrolling
 (setq scroll-margin 0
       scroll-conservatively 10000
