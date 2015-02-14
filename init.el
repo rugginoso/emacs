@@ -17,6 +17,7 @@
 (load-local "lisp/visual-regexp")
 (load-local "lisp/tab")
 (load-local "lisp/whitespace")
+(load-local "lisp/powerline")
 
 ;; My modes
 (load-local "lisp/ruby")
