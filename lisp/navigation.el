@@ -12,6 +12,7 @@
 (package-install-if-missing 'flx-ido)
 (projectile-global-mode)
 (setq projectile-indexing-method 'find)
+(setq projectile-switch-project-action 'projectile-dired)
 
 ;; expand region
 (package-install-if-missing 'expand-region)
