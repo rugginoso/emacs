@@ -39,10 +39,6 @@
 (global-set-key (kbd "S-s-<down>") 'shrink-window)
 (global-set-key (kbd "S-s-<up>") 'enlarge-window)
 
-;; Undo / Redo
-(global-set-key (kbd "C-z") 'undo)
-(global-set-key (kbd "C-S-z") 'redo)
-
 ;; Move Text with SHIFT-ALT-UP/DOWN
 (package-install-if-missing 'move-text)
 (global-set-key [S-M-up] 'move-text-up)

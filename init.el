@@ -4,6 +4,7 @@
 ;; My configs
 (load-local "lisp/defuns")
 (load-local "lisp/packages")
+(load-local "lisp/elscreen")
 (load-local "lisp/global")
 (load-local "lisp/ido")
 (load-local "lisp/ui")
